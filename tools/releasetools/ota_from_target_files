@@ -543,7 +543,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 """ % bcb_dev)
 
   script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
-  script.Print("Flashing AOSP by  NOOBBUILDS...")
+  script.Print("Flashing AOSP by MAC(mmcneil)...")
   device_specific.FullOTA_InstallBegin()
 
   if block_based:
